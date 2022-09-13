@@ -6,5 +6,3 @@ const app = new App({
 })
 
 export default app
-
-//let me change something in here

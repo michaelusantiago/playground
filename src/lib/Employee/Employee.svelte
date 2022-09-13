@@ -32,7 +32,6 @@
 
 </script>
 <div class="text-center font-bold text-2xl">Say Hello to Canada!</div>
-<div class="text-center font-bold text-2xl">Canada here we come!</div>
 <h1 class="p-4 text-center">Example of CRUD (array data only not persistent)</h1>
 <main class="bg-gray-500 p-10 flex justify-center flex-col items-center">
   {#if !edit}

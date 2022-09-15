@@ -6,8 +6,10 @@
 
 <style lang="postcss">
     :root {
+        --container-height: 150px;
         --border-color: blue;
         --header-bg-color: lightseagreen;
+        --header-bg-hover-color: green;
         --header-text-color: white;
         --icon-size: 10px;
         --icon-position: 30%;
@@ -32,6 +34,7 @@
         padding: 15px;
         cursor: pointer;
     }
+    .header:hover { --header-bg-color: var(--header-bg-hover-color); }
     .header-br {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
@@ -76,7 +79,7 @@
 
     /* Container */
     .container {
-        height: 150px;
+        height: var(--container-height);
         overflow: hidden;
         transition: height linear 0.2s;
     }

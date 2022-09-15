@@ -32,7 +32,12 @@
 
     <br />
 
-    <Container2 header_title="No longer dependent on GTToggle component, and yet customizable">
+    <Container2
+        header_title="No longer dependent on GTToggle component, and yet customizable"
+        --header-bg-color="yellow"
+        --header-bg-hover-color="orange"
+        --header-text-color="#222"
+        >
         <div class="p-5">
             <div>Ratione animi molestiae suscipit et, tempore sint dolores quisquam nulla in minima provident quis iste! Quaerat commodi tempore inventore, nisi voluptate tempora!</div>
             <br/>
